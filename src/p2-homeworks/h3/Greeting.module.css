@@ -1,0 +1,21 @@
+.someClass {
+border: 1px solid green;
+    background: #34A408;
+    padding:10px;
+    border-radius:10px;
+}
+
+.error {
+    padding:10px;
+    background:red;
+    resize: vertical;
+    border-radius:15px;
+    box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+    border: 1px solid red;
+}
+.error,.someClass:focus{
+    padding:10px;
+    resize: vertical;
+    border-radius:15px;
+    box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+}

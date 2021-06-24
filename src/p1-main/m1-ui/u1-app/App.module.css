@@ -37,14 +37,13 @@ color: lime;
     }
 }
 .navbar{
-
     grid-area: n;
     position: absolute;
     background: black;
     width:100%;
     opacity: 80%;
-    animation: navbar 1s ease-in-out 1 ;
-    animation-fill-mode:forwards;
+    animation: navbar 1s linear ;
+    animation-fill-mode:both;
 }
 .error{
     font-size: 20px;

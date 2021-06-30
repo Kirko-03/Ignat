@@ -1,3 +1,4 @@
+
 .App {
     margin: 0 auto;
     display: grid;
@@ -12,38 +13,27 @@
     grid-area: s;
     background: goldenrod;
     height: 75px;
-    text-align: center;
 }
 .activeClass{
 color: lime;
 }
 .tasks{
     grid-area: t;
-}
-@keyframes navbar {
-    0%{
-        top:0px;
-        background: gray;
-        width:100%;
-        height:50px;
-    }
 
-    100%{
-        top:30px;
-        background: black;
-        width:100%;
-        height:150px;
-
-    }
 }
-.navbar{
-    grid-area: n;
-    position: absolute;
-    background: black;
-    width:100%;
-    opacity: 80%;
-    animation: navbar 1s linear ;
-    animation-fill-mode:both;
+.link{
+
+}
+
+.header{
+display: flex;
+    width: 200px;
+    transition-duration: 500ms;
+    transform: translate(-225px);
+}
+.header:hover{
+    transition-duration: 500ms;
+    transform: translate(0px);
 }
 .error{
     font-size: 20px;
